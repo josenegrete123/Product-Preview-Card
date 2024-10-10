@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="style.css">
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
     <style>
       .attribution { font-size: 11px; text-align: center; }
       .attribution a { color: hsl(228, 45%, 44%); }
@@ -21,7 +20,7 @@
   <body>
     <main>
       <div class="container">
-        <img src="images/image-product-mobile.jpg" alt="display bottle of perfume">
+        <img src="images/image-product-mobile.jpg" alt="display bottle of perfume" class="img">
         <div class="row">
           <h1 class="product">Perfume</h1>
           
@@ -30,9 +29,10 @@
           <p class="product-desc">A floral, solar and voluptuous interpretation composed by Olivier Polge,
             Perfumer-Creator for the House of CHANEL.</p>
 
-          <h1 class="product-new-price">$149.99</h1>
-
-          <h2 class="product-old-price">$169.99</h2>
+          <div class="prices">
+            <h1 class="product-new-price">$149.99</h1>
+            <h2 class="product-old-price">$169.99</h2>
+          </div>
 
           <button class="btn">Add to Cart</button>
         </div>
