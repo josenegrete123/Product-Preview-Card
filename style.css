@@ -216,22 +216,7 @@ body {
 }
 
 @media only screen and (min-width: 90em) {
-    .img {
-        content: url('/images/image-product-desktop.jpg');
-        border-radius: 0.75em 0 0 0.75em;
-    }
-
-    .container {
-        display: flex;
-        justify-content: center;
-        height: 28em;
-    }
-
     .row {
         width: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border-radius: 0 0.75em 0.75em 0;
     }
 }
