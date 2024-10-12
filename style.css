@@ -206,6 +206,12 @@ body {
         height: 28em;
     }
 
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     .row {
         display: flex;
         flex-direction: column;
